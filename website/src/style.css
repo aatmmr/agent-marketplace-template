@@ -1,4 +1,5 @@
 /* Neutral marketplace design tokens. */
+@import './styles/tokens/marketplace.css';
 @import './styles/tokens/marketplace-dashboard.css';
 
 *,
