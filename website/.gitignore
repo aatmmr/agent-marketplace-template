@@ -1,0 +1,5 @@
+node_modules/
+dist/
+src/data/manifest.json
+src/styles/tokens/
+public/assets/

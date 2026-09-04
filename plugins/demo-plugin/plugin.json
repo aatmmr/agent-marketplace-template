@@ -1,0 +1,16 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "demo-plugin",
+  "description": "A demo plugin as placeholder",
+  "version": "1.0.0",
+  "author": {
+    "name": "aatmmr"
+  },
+  "repository": "https://github.com/aatmmr/agent-marketplace-template/tree/main/plugins/demo-plugin",
+  "license": "Proprietary",
+  "keywords": [
+    "demo",
+    "agentic",
+    "skills"
+  ]
+}
