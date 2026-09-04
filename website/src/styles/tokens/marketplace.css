@@ -1,0 +1,73 @@
+/* Neutral Design Tokens
+ * Clean, neutral color palette for the Agentic Marketplace.
+ * Based on slate/blue color scale with system fonts.
+ */
+:root {
+  /* Primary palette */
+  --marketplace-yellow: #0066CC;        /* Primary blue — main action color */
+  --marketplace-nordic-black: #1F2937;  /* Dark text and surfaces */
+  --marketplace-canvas: #F9FAFB;        /* Default light page background */
+  --marketplace-white: #FFFFFF;         /* Surface */
+
+  /* Slate scale — supporting neutrals */
+  --marketplace-slate-2: #F3F4F6;  /* subtle fills, hover backgrounds */
+  --marketplace-slate-3: #E5E7EB;  /* minor rules, dividers inside components */
+  --marketplace-slate-5: #9CA3AF;  /* major rules between page sections */
+  --marketplace-slate-6: #6B7280;  /* captions, metadata, footnotes */
+  --marketplace-slate-7: #4B5563;  /* eyebrows, tags */
+  --marketplace-slate-8: #374151;  /* body text on light backgrounds */
+  --marketplace-slate-9: #111827;  /* strong supporting text, editorial accent */
+
+  /* Interaction */
+  --marketplace-link: #0066CC;      /* link on light — underline appears on hover only */
+  --marketplace-cta-hover: #0052A3; /* Darkened blue on primary CTA hover */
+
+  /* Secondary accents (neutral) */
+  --marketplace-yellow-light: #DBEAFE;
+  --marketplace-yellow-deep: #1E40AF;
+
+  /* Secondary / data-viz accents — neutral tones */
+  --marketplace-indigo: #4F46E5;
+  --marketplace-cornflower-blue: #0066CC;
+  --marketplace-mango-tango-light: #DBEAFE;
+  --marketplace-mango-tango: #0284C7;
+
+  /* Legacy aliases (kept for backwards compatibility) */
+  --marketplace-almost-black: var(--marketplace-nordic-black);
+  --marketplace-grey-light: var(--marketplace-slate-2);
+  --marketplace-gray-middle: var(--marketplace-slate-3);
+  --marketplace-gray: var(--marketplace-slate-5);
+
+  /* Typography */
+  --marketplace-font-sans: "Segoe UI", system-ui, -apple-system, sans-serif;
+  --marketplace-font-serif: Georgia, serif; /* italic emphasis only */
+
+  /* Corner radii — restrained, architectural */
+  --marketplace-radius-surface: 0;
+  --marketplace-radius-input: 2px;
+  --marketplace-radius-button: 4px;
+  --marketplace-radius-card: 8px;
+  --marketplace-radius-pill: 999px;
+
+  /* Motion — one easing, three durations */
+  --marketplace-ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --marketplace-duration-fast: 120ms;
+  --marketplace-duration-base: 180ms;
+  --marketplace-duration-slow: 320ms;
+
+  /* Semantic tokens */
+  --color-bg: var(--marketplace-canvas);
+  --color-surface: var(--marketplace-slate-2);
+  --color-text: var(--marketplace-nordic-black);   /* headlines / primary text */
+  --color-body: var(--marketplace-slate-8);        /* running body copy on light */
+  --color-muted: var(--marketplace-slate-6);       /* captions, metadata */
+  --color-border: var(--marketplace-slate-3);      /* minor rules, dividers */
+  --color-rule: var(--marketplace-slate-5);        /* major section rules */
+  --color-eyebrow: var(--marketplace-slate-7);
+  --color-primary: var(--marketplace-yellow);
+  --color-primary-hover: var(--marketplace-cta-hover);
+  --color-link: var(--marketplace-link);
+  --color-info: var(--marketplace-cornflower-blue);
+  --color-warning: var(--marketplace-yellow-deep);
+  --color-danger: var(--marketplace-mango-tango);
+}
